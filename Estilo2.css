@@ -1,5 +1,5 @@
 html{
-background-color:#6860ba;
+background-color:#FFE4C4;
 font-family: "Open Sans",sans-serif;}
 h1{
   font-size:60px;
@@ -9,7 +9,7 @@ h1{
 } text-shadow: 3px 3px 1px black;
 
 p{
-  color:#e24747;
+  color:#6495ED;
   width: 500;
   font-size: 16px
   letter-spacing:1px; }
