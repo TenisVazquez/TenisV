@@ -2,81 +2,139 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Helvetica Neue', sans-serif;
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f0f8ff;
-  color: #000;
+  background-color: #f5f5f5;
+  color: #1e1e1e;
   line-height: 1.6;
+  padding: 20px;
 }
 
-header {
-  background-color: #003366;
-  color: #fff;
-  padding: 1rem 2rem;
-  text-align: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-.products {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-  padding: 2rem;
-}
-
-.product-card {
-  background: #ffffff;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.product-card:hover {
-  transform: scale(1.03);
-}
-
-.product-card img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.product-info {
-  padding: 1rem;
+#encabezado {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
   text-align: center;
 }
 
-.product-info h3 {
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
-  color: #003366;
+#encabezado h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
 }
 
-.product-info p {
-  font-size: 1rem;
-  color: #000;
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-.product-info .price {
-  color: #0066cc;
-  font-weight: bold;
-  margin-top: 0.5rem;
-}
-
-.btn {
-  display: inline-block;
-  padding: 0.5rem 1.2rem;
-  margin-top: 1rem;
-  background-color: #0066cc;
-  color: white;
+.navbar li a {
+  color: #00ff84;
   text-decoration: none;
-  border-radius: 8px;
-  transition: background 0.3s ease;
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
 
-.btn:hover {
-  background-color: #004a99;
+.navbar li a:hover {
+  color: #ffffff;
+}
+
+#pagina {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#pagina h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #1e1e1e;
+}
+
+#pagina p {
+  margin: 10px 0;
+}
+
+#pagina a {
+  color: #00cc6e;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#pagina a:hover {
+  text-decoration: underline;
+}
+
+#pagina img {
+  margin: 10px 10px 20px 0;
+  border-radius: 8px;
+}
+
+form {
+  margin-top: 30px;
+}
+
+form p {
+  margin-bottom: 15px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #cccccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+form textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+form .button button {
+  background-color: #00ff84;
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form .button button:hover {
+  background-color: #00cc6e;
+}
+
+iframe {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 450px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 12px;
+}
+
+#pie {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 8px;
 }
