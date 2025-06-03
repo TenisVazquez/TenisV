@@ -6,17 +6,17 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #f0f8ff;
+  color: #000;
   line-height: 1.6;
 }
 
 header {
-  background-color: #222;
+  background-color: #003366;
   color: #fff;
   padding: 1rem 2rem;
   text-align: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .products {
@@ -27,10 +27,10 @@ header {
 }
 
 .product-card {
-  background: #fff;
+  background: #ffffff;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
@@ -52,7 +52,7 @@ header {
 .product-info h3 {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
-  color: #000;
+  color: #003366;
 }
 
 .product-info p {
@@ -61,7 +61,7 @@ header {
 }
 
 .product-info .price {
-  color: #e91e63;
+  color: #0066cc;
   font-weight: bold;
   margin-top: 0.5rem;
 }
@@ -70,7 +70,7 @@ header {
   display: inline-block;
   padding: 0.5rem 1.2rem;
   margin-top: 1rem;
-  background-color: #e91e63;
+  background-color: #0066cc;
   color: white;
   text-decoration: none;
   border-radius: 8px;
@@ -78,5 +78,5 @@ header {
 }
 
 .btn:hover {
-  background-color: #d81b60;
+  background-color: #004a99;
 }
